@@ -4,7 +4,7 @@ import lock from "../../assets/images/sumra/icon-lock.svg"
 import logout from "../../assets/images/sumra/icon-logout.svg"
 import { useDispatch, useSelector } from "react-redux"
 import { getUserAccessToken } from "../../store/auth/actions"
-import { withAuthMain } from "../../components/hoc/withAuthMain"
+import { withAuthMain } from "./hoc/withAuthMain"
 import { Link, Redirect } from "react-router-dom"
 import { AppStateType } from "../../store/reducers"
 

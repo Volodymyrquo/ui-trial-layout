@@ -3,7 +3,7 @@ import { connect, useSelector } from "react-redux"
 import { Redirect } from "react-router"
 import ReactCodeInput from "react-verification-code-input"
 import logout from "../../assets/images/sumra/icon-logout.svg"
-import { withAuthMain } from "../../components/hoc/withAuthMain"
+import { withAuthMain } from "./hoc/withAuthMain"
 import { getVerificationCode } from "../../store/auth/actions"
 import { AppStateType } from "../../store/reducers"
 

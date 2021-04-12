@@ -4,7 +4,7 @@ import personIcon from "../../assets/images/sumra/icon-person.svg"
 import personOrange from "../../assets/images/sumra/icon-person-orange.svg"
 import iconBlock from "../../assets/images/sumra/icon-block.svg"
 import checkGreen from "../../assets/images/sumra/icon-check-green.svg"
-import { withAuthMain } from "../../components/hoc/withAuthMain"
+import { withAuthMain } from "./hoc/withAuthMain"
 import { useDispatch, useSelector } from "react-redux"
 import { AppStateType } from "../../store/reducers";
 import { getValidateName, getRegistrationData} from "../../store/auth/actions";
