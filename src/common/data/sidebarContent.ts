@@ -1,4 +1,19 @@
-export const sidebarContent = [
+type SubmenuType = {
+  name:string
+  path:string
+}
+
+type SidebarItemType = {
+  name:string
+  image: string
+  path:string
+  submenu?: SubmenuType[]
+ }
+type SidebarContentType = SidebarItemType[]
+
+
+
+export const sidebarContent:SidebarContentType = [
   { name: "Dashboard", image: "icon-Dashboard", path: "/" },
   { name: "Cards Types", image: "icon-card", path: "/cardtypes" },
   { name: "Cards", image: "icon-card", path: "/cards" },
